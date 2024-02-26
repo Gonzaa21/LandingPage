@@ -1,0 +1,122 @@
+/*RESPONSIVE p.1*/
+
+@media screen and (min-width: 280px) and (max-width: 667px) {
+	.container-navbar {
+		display: block;
+		position: relative;
+	}
+	.logo {
+		height: auto;
+		width: auto;
+		padding: 0;
+		display: block;
+		margin: auto;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.container-index {
+		flex-wrap: wrap;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.burga-img {
+		width: 300px;
+		margin: auto;
+	}
+
+	.h1-title {
+		font-size: 35px;
+		text-align: center;
+		margin: 40px 0 0 0;
+	}
+	.p-title {
+		text-align: left;
+	}
+
+	.cont-ntros {
+		text-align: center;
+		margin: 40px 0 60px 0;
+		width: 100%;
+	}
+
+	#pp {
+		font-size: 15px;
+		padding: 10px 0 10px 0;
+	}
+
+	.bt-txt {
+		margin: 10px;
+		padding: 1px;
+	}
+
+	.nst-img {
+		width: 100%;
+	}
+
+	.bt-loc {
+		padding-right: 25px;
+	}
+}
+
+@media screen and (min-width: 390px) and (max-width: 450px) {
+	.h1-title {
+		font-size: 35px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+	#bbt {
+		display: flex;
+		justify-content: center;
+	}
+
+	.container-index {
+		flex-wrap: wrap;
+		margin: auto;
+		margin-top: 200px;
+	}
+	.burga-img {
+		width: 400px;
+		margin: auto;
+	}
+
+	.h1-title {
+		font-size: 60px;
+		text-align: center;
+		margin: 40px 15px 0 15px;
+	}
+	.p-title {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.nst-img {
+		width: 100%;
+	}
+	#hh {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	.container-index {
+		margin: 240px 95px 0 0;
+	}
+	.nst-img {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	#hh {
+		text-align: center;
+	}
+}
+
+
+

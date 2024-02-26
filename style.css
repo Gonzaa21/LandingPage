@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f3e7cf;
+	font-family: sans-serif;
+}
+
+/* --- NAVBAR --- */
+
+.container-navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-content: flex-start;
+	background-color: #fff;
+	z-index: 2;
+
+}
+
+.logo {
+	height: auto;
+	width: 250px;
+	padding: 0 50px 0 50px;
+}
+
+.nav-a {
+	display: flex;
+	padding: 1.5rem 0.75rem 22px;
+	align-self: center;
+}
+
+.btn {
+	margin: .5rem;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #b31914;
+	transition-duration: .5s;
+	transition-property: background;
+}
+
+.btn:hover {
+	padding: 10px;
+	background: #b31914;
+	color: #fff;
+}
+
+#bbt {
+	display: inline-block;
+	background: #efa215;
+	color: #4d4d4d;
+}
+
+#bbt:hover {
+	background: #a8720d;
+	color: #fff;
+}
+
+/* --- GRAND MELT --- */
+
+.container-index {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	margin-top: 250px;
+	margin-right: 150px;
+
+}
+
+.burga-img {
+	filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.7));;
+	z-index: 1;
+}
+
+.h1-title {
+	margin: 40px .5rem 0 3rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 80px;
+	color: #B81821;
+}
+
+.p-title {
+	padding: 3rem;
+	color: #781015;
+}
+
+/* --- SEPARADOR --- */
+
+.d-bannr {
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+	margin-left: 25%;
+	color: red;
+	height: 2px;
+	background-color: #B81821;
+	border: none;
+}
+
+/* --- NOSOTROS --- */
+
+#bannr {
+	width: 6rem;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+.cont-ntros {
+	margin: 5rem;
+	background: #B81821;
+	float: left;
+}
+
+.nst-img {
+	padding: 20px;
+	float: left;
+}
+
+.txt-burger {
+	margin: 35px;
+}
+
+#hh {
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 4rem;
+	color: #fff;
+}
+
+#pp {
+	padding: 50px 50px 30px 50px;
+	font-family: "arial";
+	color: #fff;
+	font-size: 20px;
+}
+
+.bt-txt {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bt-loc, .bt-hr {
+	display: flex;
+	align-items: center;
+}
+
+#bt-link {
+	padding-left: 7px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #efa215;
+}
+
+#bt-link:hover {
+	text-decoration: underline;
+}
+
+.bt-hr {
+	justify-content: end;
+}
+
+/* --- FOOTER --- */
+
+.container-footer {
+	height: 150px;
+	width: 100%;
+	border-radius: 90% 90% 0 0;
+	background-color: rgba(245, 243, 51, 0.39);
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: column wrap;
+	align-content: center;
+}
+
+.img-fter {
+	width: 48px;
+}
+
+.p-copy {
+	text-align: center;
+	color: rgba(10, 10, 6, 0.6);
+
+}
+
+button {
+	background: transparent;
+	border: transparent;
+	width: 60px;
+}
+
+.button {
+	width: 35px;
+}
+
+#tw {
+	width: 33px;
+}
